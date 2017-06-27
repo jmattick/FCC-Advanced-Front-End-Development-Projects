@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/b5390b9dae.js"></script>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>  </h1>
+      </div>
+    </div>
+    <!--Clock Settings -->
+    <div id="settings">
+      <div id="setrow" class="row">
+        <!--Work time input-->
+        <div class="col-lg-6" id="wtime">
+          <div class="input-group">
+            <span class="input-group-btn">
+          <button id="wminus" class="btn btn-default" type="button">
+          <span class="glyphicon glyphicon-minus"></span>
+            </button>
+            </span>
+            <input id="wvalue" type="text" class="form-control" name="wvalue" qty="wvalue" value="25">
+            <span class="input-group-btn">
+        <button id="wplus" class="btn btn-default" type="button">
+          <span class="glyphicon glyphicon-plus"></span>
+            </button>
+            </span>
+          </div>
+          <p>Work time</p>
+        </div>
+
+        <!--rest time input-->
+        <div class="col-lg-6" id="rtime">
+          <div class="input-group">
+            <span class="input-group-btn">
+          <button id="rminus" class="btn btn-default" type="button">
+          <span class="glyphicon glyphicon-minus"></span>
+            </button>
+            </span>
+            <input id="rvalue" type="text" class="form-control" name="rvalue" qty="rvalue" value="5">
+            <span class="input-group-btn">
+        <button id="rplus" class="btn btn-default" type="button">
+          <span class="glyphicon glyphicon-plus"></span>
+            </button>
+            </span>
+          </div>
+          <p>Break time</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Clock-->
+
+    <div class="row">
+      <div id="outclock">
+        <div id="clock">
+          <div class="inside1">Pomodoro
+            <p>Clock</p>
+          </div>
+          <div class="inside2" id="view"></div>
+          <canvas></canvas>
+
+        </div>
+      </div>
+    </div>
+    <!--new timer-->
+
+    <div class="row timer">
+      <div class="col-lg-12" id="view"></div>
+    </div>
+    <div class="row timer">
+      <div class="col-lg-12" id="comm"></div>
+    </div>
+
+    <!--play, pause, stop-->
+    <div class="row">
+      <div id="sps-btn" class="input-group">
+        <button id="play" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button>
+
+        <button id="stop" class="btn btn-default"><span class= "glyphicon glyphicon-stop"></span></button>
+      </div>
+    </div>
+
+  </div>
+  <!--end container-->
+
+
+</body>
+<footer>
+  <p>Made by Jessica</p>
+  <a href="https://github.com/jmatty16" target="_blank" id="github"><i class="icons fa fa-github fa-2x" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/in/jessicamattick" target="_blank"><i class="icons fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+  <a href="https://www.youtube.com/channel/UCD_jjzd3XMNMgEJB3rhAW6w" target="_blank"><i class="icons fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/code_with_jess" target="_blank"><i class="icons fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+body {
+  text-align: center;
+  background-color: #004d4d;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+footer {
+  margin-top: 50px;
+}
+
+input {
+  text-align: center;
+}
+#setrow {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.input-group {
+  width: 200px;
+  margin: 0 auto;
+  color: white;
+}
+#wvalue {
+  color: white;
+  border-style: solid;
+  border: none;
+  z-index: -1;
+  font-size: 30pt;
+  overflow: visible;
+  height: auto;
+  box-shadow: inset 0px 0px 0px 0px red;
+  background: none;
+}
+#rvalue {
+  color: white;
+  border-style: solid;
+  border: none;
+  z-index: -1;
+  font-size: 30pt;
+  overflow: visible;
+  height: auto;
+  box-shadow: inset 0px 0px 0px 0px red;
+  background: none;
+}
+
+.btn {
+  border-radius: 0px;
+  color: white;
+}
+
+#outclock {
+  margin: 0 auto;
+  padding: 10px;
+}
+#clock {
+  background: white;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+/*#view {
+  font-size: 30pt;
+  height: 100px;
+  margin-top: 100px;
+  padding: 10px;
+  z-index: 1;
+}
+#comm {
+  font-size: 18pt;
+  z-index: 1;
+}*/
+.timer {
+  font-size: 30pt;
+  text-align: center;
+  margin: 0 auto;
+}
+#sps-btn {
+  padding-top: 20px;
+}
+.icons {
+  color: white;
+}
+footer {
+  color: white;
+  margin-top: 10px;
+}
+h1 {
+  color: white;
+}
+.btn {
+  background: none;
+  border: none;
+}
+.btn:hover {
+  color: white;
+  background: none;
+}
+.btn:focus {
+  background: none;
+}
+canvas {
+  position: absolute;
+  margin-left: -157px;
+  margin-top: -10px;
+}
+.inside1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 30pt;
+  color: palevioletred;
+  position: absolute;
+  margin-top: 60px;
+  padding: 20px;
+  z-index: 2;
+}
+.inside2 {
+  font-size: 30pt;
+  color: black;
+  position: absolute;
+  margin-top: 190px;
+  padding-left: 35px;
+  z-index: 2;
+}
+.info {
+  float: left;
+}
