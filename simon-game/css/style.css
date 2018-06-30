@@ -1,0 +1,165 @@
+ @import url('https://fonts.googleapis.com/css?family=Sacramento');
+body{
+  text-align: center;
+  
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+}
+
+.rim{
+  width: 550px;
+  height: 550px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -275px;
+  margin-left: -275px;
+  background-color: black;
+  padding-top: 17.5px;
+  border-radius: 50%;
+}
+.container {
+  width: 250px;
+  height: 250px;
+  
+}
+.unclickable {
+  cursor: default;
+  pointer-events: none;
+}
+.green {
+  background-color: green;
+  border-left: 25px solid green;
+  border-top: 25px solid green;
+  border-right: 12.5px solid green;
+  border-bottom: 12.5px solid green;
+  border-top-left-radius: 100%;
+  margin-right: -15px;
+  
+}
+.green-active{
+  background-color: lime;
+  border-left: 25px solid lime;
+  border-top: 25px solid lime;
+  border-right: 12.5px solid lime;
+  border-bottom: 12.5px solid lime;
+  border-top-left-radius: 100%;
+  margin-right: -15px;
+}
+.red{
+  background-color: red;
+  border-left: 12.5px solid red;
+  border-top: 25px solid red;
+  border-right: 25px solid red;
+  border-bottom: 12.5px solid red;
+  border-top-right-radius: 100%;
+}
+.red-active{
+  background-color: #ff294e ;
+  border-left: 12.5px solid #ff294e;
+  border-top: 25px solid #ff294e;
+  border-right: 25px solid #ff294e;
+  border-bottom: 12.5px solid #ff294e;
+  border-top-right-radius: 100%;
+}
+.yellow {
+  margin-top: 15px;
+  margin-right: -15px;
+  background-color: yellow;
+  border-left: 25px solid yellow;
+  border-top: 12.5px solid yellow;
+  border-right: 12.5px solid yellow;
+  border-bottom: 25px solid yellow;
+  border-bottom-left-radius: 100%;
+}
+.yellow-active{
+  margin-top: 15px;
+  margin-right: -15px;
+  background-color:  #f7ff89  ;
+  border-left: 25px solid  #f7ff89  ;
+  border-top: 12.5px solid  #f7ff89  ;
+  border-right: 12.5px solid  #f7ff89  ;
+  border-bottom: 25px solid  #f7ff89  ;
+  border-bottom-left-radius: 100%;
+}
+.blue {
+  margin-top: 15px;
+  background-color: blue;
+  border-left: 12.5px solid blue;
+  border-top: 12.5px solid blue;
+  border-right: 25px solid blue;
+  border-bottom: 25px solid blue;
+  border-bottom-right-radius: 100%;
+}
+.blue-active{
+  margin-top: 15px;
+  background-color: #00adff;
+  border-left: 12.5px solid #00adff;
+  border-top: 12.5px solid #00adff;
+  border-right: 25px solid #00adff;
+  border-bottom: 25px solid #00adff;
+  border-bottom-right-radius: 100%;
+}
+
+.options {
+  background-color: white;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -125px;
+  border: 17.5px solid black;
+  padding-top: 25px;
+}
+.count-box {
+  width: 50px;
+  height: 50px;
+  border: solid black;
+  margin-left: 12.5px;
+  font-size: 25px;
+  padding-top: 5px;
+  
+}
+.count {
+  margin-left: 25px;
+  width: 75px;
+  text-align: center;
+  
+}
+.off {
+  color: lightgrey;
+}
+.opt-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 1px;
+}
+#start{
+  margin-right: 10px;
+  background-color: red;
+}
+#strict {
+  margin-right: 25px;
+  background-color: yellow;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        transform: scale(0.5);
+    }
+  .rim{
+    margin: 20vh -275px;
+  }
+}
