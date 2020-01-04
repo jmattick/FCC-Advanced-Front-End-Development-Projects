@@ -5,4 +5,6 @@ Advanced Front End Development Projects for free code camp
 
 (2) Pomodoro Clock: https://codepen.io/jmatty16/full/LLzKvP/
 
-(3) (In Progress) Tic-Tac-Toe: https://codepen.io/jmatty16/full/pwpxdX/
+(3) Tic-Tac-Toe: https://codepen.io/jmatty16/full/pwpxdX/
+
+(4) Simon Game: https://codepen.io/jmatty16/full/RxBjPY
